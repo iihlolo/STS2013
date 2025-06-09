@@ -6,7 +6,7 @@ This document describes the file structure, components, and responsibilities of 
 
 firespread/
 
-|-- fire_model.h5                 # Trained Keras model (HDF5 format)
+|-- fire_model.h5                                             # Trained Keras model (HDF5 format)
 
 |-- firebench_dataset.csv         # Training dataset extracted from FireBench
 
