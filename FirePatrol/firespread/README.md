@@ -5,17 +5,17 @@ This document describes the file structure, components, and responsibilities of 
 📂 Directory Structure
 
 firespread/
-├── fire_model.h5                 # Trained Keras model (HDF5 format)
-├── firebench_dataset.csv         # Training dataset extracted from FireBench
-├── fire_predictor.py             # Prediction script using the trained model
-├── model_trainer.py              # Training and evaluation logic
-├── train_from_csv.py             # CSV-based model training runner
-├── firebench_loader.py           # FireBench Zarr loader and preprocessor
-├── gps_utils.py                  # Pixel-to-GPS coordinate converter
-├── terrain_reader.py             # Extract slope from GeoTIFF using lat/lon
-├── weather_api.py                # Weather API integration for wind data
-├── Slope_All.tif                 # GeoTIFF file of slope (entire Korea)
-├── Slope_All.tfw                 # World file with affine transformation metadata
+|-- fire_model.h5                 # Trained Keras model (HDF5 format)
+|-- firebench_dataset.csv         # Training dataset extracted from FireBench
+|-- fire_predictor.py             # Prediction script using the trained model
+|-- model_trainer.py              # Training and evaluation logic
+|-- train_from_csv.py             # CSV-based model training runner
+|-- firebench_loader.py           # FireBench Zarr loader and preprocessor
+|-- gps_utils.py                  # Pixel-to-GPS coordinate converter
+|-- terrain_reader.py             # Extract slope from GeoTIFF using lat/lon
+|-- weather_api.py                # Weather API integration for wind data
+|-- Slope_All.tif                 # GeoTIFF file of slope (entire Korea)
+|-- Slope_All.tfw                 # World file with affine transformation metadata
 
 🔍 Component Descriptions
 
