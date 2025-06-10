@@ -4,7 +4,7 @@ FirePatrol is an AI-powered wildfire monitoring and response support system desi
 
 Platform: Fire Monitoring Dashboard
 
-	•	Provides a centralized dashboard for monitoring CCTV feeds from mountains nationwide.
+•	Provides a centralized dashboard for monitoring CCTV feeds from mountains nationwide.
 
  •	When a wildfire is detected, the system automatically:
 
